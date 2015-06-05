@@ -75,9 +75,9 @@ public class Implicant implements Iterator<Varieable>{
 
     @Override
     public String toString() {
-        return "Should display : "+!allNegetive+ " Implicant{" +
-                "varieables=" + varieables +
-                '}';
+        return  "Implicant :\t" +
+                 varieables +
+                "\n";
     }
 
     public List<Varieable> getVarieables() {
